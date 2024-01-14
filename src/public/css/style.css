@@ -1,0 +1,398 @@
+
+.nav-link:hover{
+    font-size: 18px;
+    transition: font-size 0.3s ease-in-out;
+}
+.my-custom-class-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: flex-end;
+
+}
+
+.my-custom-class-nav {
+    font-size: 15px;
+    color: rgba(48, 48, 48, 1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 20px;
+
+
+}
+
+.my-custom-class-div1 {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.my-custom-class-optimization {
+    color: rgba(48, 48, 48, 1);
+
+}
+
+.my-custom-class-innovation {
+    color: rgba(48, 48, 48, 1);
+}
+
+.my-custom-class-results {
+    color: rgba(255, 94, 98, 1);
+
+}
+
+.my-custom-class-optimization,
+.my-custom-class-innovation,
+.my-custom-class-results {
+    position: relative;
+    display: flex;
+    font-size: 70px;
+    line-height: 0.8;
+    font-weight: bold;
+    margin-top: 0;
+    align-items: flex-start;
+    top: -70px;
+}
+
+
+.image-container {
+    position: relative;
+    right: 135px;
+    width: 1188px;
+    /* Ширина контейнера */
+    height: 760px;
+    /* Высота контейнера */
+    z-index: 1;
+}
+
+.first-image {
+    width: 1050px;
+    height: 900px;
+    margin-left: -200px;
+    margin-top: -50px;
+}
+
+.second-image {
+    position: absolute;
+    /* Позиционирование внутри контейнера */
+    top: 0;
+    /* Расположение относительно верхней границы контейнера */
+    left: 100px;
+    /* Расположение относительно левой границы контейнера */
+    width: 90%;
+    /* Ширина второй картинки */
+    height: 70%;
+    /* Высота второй картинки */
+}
+
+.my-custom-class-div2 {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    height: 485px;
+    border-radius: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Выравнивание элементов по верхней границе */
+    box-shadow: 5px 6px 5px 8px rgba(245, 37, 37, 0.1);
+    overflow: hidden;
+}
+
+.image-container2 {
+    position: relative;
+    width: 50%;
+    /* Ширина блока с изображениями */
+}
+
+.image-container2 img {
+    position: absolute;
+    display: block;
+    top: 0;
+    /* Размещение изображений поверх друг друга */
+}
+
+.first-image2 {
+    z-index: 1;
+    /* Первая картинка находится выше второй */
+    width: 971px;
+    height: 654px;
+    left: -262px;
+}
+
+.second-image2 {
+    z-index: 2;
+    /* Вторая картинка находится поверх первой */
+}
+
+.text-bg-white {
+    position: relative;
+    width: 50%;
+    /* Ширина блока с текстом */
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.my-custom-class-kto {
+    width: 285px;
+    height: 56px;
+    background-color: rgba(255, 94, 98, 1);
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-top: 8px;
+    margin: -30px 0px 0px 20px;
+}
+
+.my-custom-class-kto-name {
+    font-size: 54px;
+    color: rgba(48, 48, 48, 1);
+    font-weight: bold;
+}
+
+.my-custom-class-kto-paragraph {
+    font-size: 23px;
+    text-align: start;
+    color: rgba(48, 48, 48, 1);
+    width: 80%;
+    margin-left: 30px;
+}
+
+.my-custom-class-3d {
+    margin: 30px 0px -20px 0px;
+}
+
+.my-custom-class-3d1 {
+    margin: -10px 0px -20px 0px;
+}
+
+.my-custom-class-3d2 {
+    margin: 25px 0px -15px 0px;
+}
+
+.my-custom-class-su {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 0px;
+}
+
+.my-custom-class-su1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+}
+
+.my-custom-class-su3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 65px 0px;
+}
+
+.my-custom-class-h2 {
+    font-size: 54px;
+    color: rgba(48, 48, 48, 1);
+}
+
+.my-custom-class-uspeh {
+    color: rgba(255, 94, 98, 1);
+}
+.my-custom-class-our {
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+    color: rgba(255, 94, 98, 1);
+}
+
+
+.card {
+    box-shadow: 5px 6px 4px 8px rgba(245, 37, 37, 0.1);
+    border-radius: 10px;
+   
+}
+
+.my-custom-class-3wind {
+    margin-top: -50px;
+}
+
+.first-image3 {
+    position: absolute;
+    width: 721px;
+    height: 495px;
+    top: -53px;
+    right: -63px;
+    z-index: 0;
+}
+
+.second-image3 {
+    position: absolute;
+    z-index: 2;
+    top: -9px;
+    right: 280px;
+}
+
+.my-custom-class-div3 {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    height: 390px;
+    border-radius: 10px;
+}
+
+.my-custom-class-text4 {
+    position: relative;
+    margin-right: 20px; /* Пример отступа для размещения текста от изображений */
+    z-index: 3;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    width: 250px;
+}
+
+.my-h4 {
+    font-size: 36px;
+}
+
+.price450 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.second-image4 {
+    position: absolute;
+    z-index: 2;
+    top: -9px;
+    right: -270px;
+}
+
+.my-h4-2 {
+    font-size: 36px;
+    color: rgba(255, 94, 98, 1);
+}
+
+.my-custom-class-text5 {
+    position: relative;
+    margin-right: 5px; /* Пример отступа для размещения текста от изображений */
+    z-index: 3;
+    font-size: 14px;
+    color:  rgba(48, 48, 48, 1);;
+    text-align: left;
+    width: 266px;
+}
+
+.my-custom-class-div4 {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    height: 390px;
+    border-radius: 10px;
+}
+
+.price15 {
+    font-size: 21px;
+    font-weight: bold;
+    color:rgba(255, 94, 98, 1);
+}
+
+.feedback-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 378px;
+    height: 76px;
+    border-radius: 40px;
+    margin: 47px 0px 45px 450px;
+    overflow: hidden;
+}
+a.feedback{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+a.feedback:hover{
+    font-size: 31px;
+    text-decoration: none;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.my-custom-class-invite {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.man-image {
+    position: absolute;
+    z-index: 2;
+    height: 572px;
+    right: -35px;
+    width: 760px;
+    top: -25px;
+}
+
+.my-custom-class-text6 {
+    position: relative;
+    margin: 30px 0px 26px 30px;
+    z-index: 3;
+    font-size: 14px;
+    color:  rgba(48, 48, 48, 1);
+    text-align: left;
+    width: 266px;
+}
+
+.my-custom-class-man {
+    height: 500px;
+}
+
+.union {
+    font-size: 40px;
+    font-weight: bold;
+    color:rgba(255, 94, 98, 1);
+}
+
+.union1 {
+    font-size: 40px;
+    font-weight: bold;
+    color:rgba(48, 48, 48, 1);
+}
+
+.my-custom-class-button1 {
+    position: relative;
+    
+    background-color: rgba(255, 94, 98, 1);
+    width: 582px;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.need {
+    font-size: 40px;
+    margin: 12px 0px 0px 25px;
+}
+
+.my-custom-class-button2 {
+    position: relative;
+    color: rgba(255, 94, 98, 1);
+    width: 269px;
+    height: 45px;
+    font-size: 19px;
+    border-radius: 20px;
+    border-color: rgba(255, 94, 98, 1);
+    background-color: #fff;
+    margin: 60px 0 0 20px;
+}
