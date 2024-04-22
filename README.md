@@ -1,1 +1,1 @@
-# Maksat
+# Maksat-orange (group of people)
